@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "LaBelleAurore"; 
+    src: url("../public/fonts/aurore/LaBelleAurore-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+  
+.logoTitle{
+    font-family: 'LaBelleAurore';
+    font-size: 20px;
+}
+.header{
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: #141414;
+}
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.listLink{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.userMiniProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    min-height: 100%;
+}
+.headerAvatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}

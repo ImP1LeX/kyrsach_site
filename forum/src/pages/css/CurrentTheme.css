@@ -1,0 +1,73 @@
+.themeMainContainer{
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    padding: 20px 30px;
+    background-color: #00000067;
+    display: flex;
+    flex-direction: column;
+}
+.mainImgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.mainTextContainer{
+    margin: 10px 0;
+}
+.footerThemeContainer{
+    margin: 10px 0;
+}
+.commentContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px rgb(124, 124, 124) solid;
+}
+.imgContainer{
+    padding: 5px;
+}
+.comentContentConntainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.subCommentContainer{
+    margin-left: 50px;
+}
+.themeCommentAddContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 10px 0;
+}
+.commentAddInput{
+    width: calc(100% - 15%);
+    height: 60px;
+    padding: 5px 15px;
+    border: 1px white solid;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    font-size: 16px;
+}
+.commentAddButton{
+    width: 15%;
+    height: 60px;
+    border-radius: 20px;
+    background: none;
+    border: 1px white solid;
+    color: white;
+    font-size: 16px;
+}
+.commentAddButton:hover{
+    background: #3d3d3d67;
+}
+.commentAddButton:active{
+    background: #88888867;
+}

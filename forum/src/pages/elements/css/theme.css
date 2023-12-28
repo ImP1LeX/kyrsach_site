@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Montserrat-Medium"; 
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+
+.themeConteiner{
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    padding: 0 30px;
+    background-color: #00000067;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.infoColumn{
+    
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.themeTitle{
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+}
+.likeButton{
+    background: none;
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.dopInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+.commentButton{
+    background: none;
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.themeAvatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}

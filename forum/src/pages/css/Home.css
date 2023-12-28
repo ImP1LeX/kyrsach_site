@@ -1,0 +1,38 @@
+.mainContent{
+    width: calc(100vw - 300px);
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    height: 100vh;
+}
+.bgStatic{
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    opacity: 40%;
+}
+.themeAddInput{
+    border: 1px white solid;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    padding: 10px 10px;
+    width: 100%;
+}
+.formAddTheme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #00000067;
+    border-radius: 20px;
+    width: 600px;
+    padding: 15px;
+}

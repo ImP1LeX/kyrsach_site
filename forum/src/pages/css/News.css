@@ -1,0 +1,22 @@
+
+.newsContainer{
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    padding: 20px 30px;
+    background-color: #00000067;
+    display: flex;
+    flex-direction: column;
+}
+.newsImage{
+    height: 400px;
+    object-fit: contain;
+}
+.titleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
